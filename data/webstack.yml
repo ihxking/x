@@ -2,8 +2,8 @@
 - taxonomy: 常用工具
   icon: fa-star
   links: 
-    - title: 网络剪贴板
-      url: https://netcut.cn/
+    - title: 在线看剧
+      url: https://dianyi.ng/
       logo: images/logos/xxx.png
       qrcode: https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://netcut.cn/
       description: 在线跨屏剪切文字
