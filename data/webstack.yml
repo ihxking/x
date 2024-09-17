@@ -4,16 +4,14 @@
   links: 
     - title: 在线看剧
       url: https://dianyi.ng/
-      logo: images/logos/xxx.png
-      qrcode: https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://netcut.cn/
-      description: 在线跨屏剪切文字
-    - title: 草料二维码
-      qrcode: images/qrcodes/cli.png
-      url: https://cli.im/url
-      description: 在线二维码生成工具
-    - title: 在线文件传输
-      url: https://musetransfer.com/
-
+      description: 在线看剧看电影
+    - title: 在线听歌
+      url: https://tool.liumingye.cn/music/#/
+      description: 在线听热门歌曲
+    - title: 在线购物
+      url: https://lnaoh.yhzu.cn/
+      description: 更多优惠购物
+      
 - taxonomy: 云服务平台
   icon: fa-cloud
   links: 
