@@ -291,7 +291,7 @@
                     $("#public-web-jump-button").html("点击立即前往微信小程序(潇府)");
                     $("#dianjiimg").show();
                 } else if (weibo) {
-                    $(".notice-msg").html("正在跳转微信小程序,如未自动打开微信请点击下方按钮");
+                    $(".notice-msg").html("正在跳转微信,如未自动打开微信请点击下方按钮");
                     $("#public-web-jump-button").attr("href","sinaweibo://wbdiversion?username=gh_fe78baaaa76f&path=%2Fpages%2Findex%2Frequest%3Fid%3DDnEG93K5ja");
                     window.location.href="sinaweibo://wbdiversion?username=gh_fe78baaaa76f&path=%2Fpages%2Findex%2Frequest%3Fid%3DDnEG93K5ja";
                 } else {
@@ -304,7 +304,7 @@
                 }
             } else {
                 if (2 != 1) {
-                    $(".notice-msg").html("请用微信扫描下方二维码,打开（潇府）小程序！");
+                    $(".notice-msg").html("请用微信扫描下方二维码,打开（潇府）！");
                     $(".qrcodes").show();
                     $("#public-web-jump-button").css({"background-color":"#CCCCCC","color":"#333333"}).html("扫码下方二维码");
                 } else {
@@ -356,7 +356,7 @@
         }
 
         function showDianji() {
-            $("#public-web-jump-button").html("点击立即前往微信小程序（潇府）");
+            $("#public-web-jump-button").html("点击立即前往微信（潇府）");
             $("#dianjiimg").show();
             clearTimeout(dianji);
         }
